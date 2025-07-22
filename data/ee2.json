@@ -1,0 +1,37 @@
+{
+    "Monday": [
+      "Introductory Biology",
+      "Signals and Systems",
+      "Engineering Mechanics",
+      "Digital Design (tut)",
+      "Signals and Systems (lab)"
+    ],
+    "Tuesday": [
+      "Digital Design",
+      "Introductory Biology",
+      "Signals and Systems",
+      "Engineering Electromagnetics (tut)",
+      "Electrical and Electronics Design (lab)"
+    ],
+    "Wednesday": [
+      "Engineering Electromagnetics",
+      "Digital Design",
+      "Introductory Biology",
+      "Signals and Systems (tut)"
+    ],
+    "Thursday": [
+      "Engineering Electromagnetics",
+      "Digital Design",
+      "Introductory Biology",
+      "Signals and Systems",
+      "Biology Lab (lab)"
+    ],
+    "Friday": [
+      "Engineering Electromagnetics",
+      "Digital Design",
+      "Introductory Biology",
+      "Signals and Systems",
+      "Digital Design (lab)"
+    ]
+  }
+  

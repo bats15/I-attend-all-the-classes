@@ -1,0 +1,37 @@
+{
+  "Monday": [
+    "Numerical Methods",
+    "Introductory Biology",
+    "Basic Electrical and Electronics Engineering",
+    "Fluid Dynamics",
+    "Fundamentals of Engineering Materials (tut)"
+  ],
+  "Tuesday": [
+    "Numerical Methods",
+    "Electrical and Electronics Design",
+    "Introductory Biology",
+    "Basic Electrical and Electronics Engineering",
+    "Numerical Methods Lab (lab)"
+  ],
+  "Wednesday": [
+    "Fluid Dynamics",
+    "Fundamentals of Engineering Materials",
+    "Electrical and Electronics Design",
+    "Introductory Biology",
+    "Biology Lab (lab)"
+  ],
+  "Thursday": [
+    "Fluid Dynamics",
+    "Basic Electrical and Electronics Engineering",
+    "Fundamentals of Engineering Materials",
+    "Electrical and Electronics Design",
+    "Electrical and Electronics Design (lab)"
+  ],
+  "Friday": [
+    "Fluid Dynamics",
+    "Basic Electrical and Electronics Engineering",
+    "Fundamentals of Engineering Materials",
+    "Electrical and Electronics Design",
+    "Fluid Dynamics (tut)"
+  ]
+}

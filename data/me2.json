@@ -1,0 +1,38 @@
+{
+    "Monday": [
+      "Numerical Methods",
+      "Introduction to Economics",
+      "Manufacturing Process -I",
+      "Electrical and Electronics Design (lab)"
+    ],
+    "Tuesday": [
+      "Numerical Methods",
+      "Introduction to Economics",
+      "Basic Electrical and Electronics Engineering",
+      "Fluid Dynamics",
+      "Fluid Dynamics (tut)",
+      "Mechanics of Solid lab (lab)"
+    ],
+    "Wednesday": [
+      "Fundamentals of Engineering Materials",
+      "Basic Electrical and Electronics Engineering",
+      "Introduction to Economics",
+      "Fluid Dynamics",
+      "Manufacturing Process -I (tut)"
+    ],
+    "Thursday": [
+      "Basic Electrical and Electronics Engineering",
+      "Fundamentals of Engineering Materials",
+      "Introduction to Economics",
+      "Fluid Dynamics",
+      "Numerical Methods Lab (lab)"
+    ],
+    "Friday": [
+      "Basic Electrical and Electronics Engineering",
+      "Fundamentals of Engineering Materials",
+      "Introduction to Economics",
+      "Fluid Dynamics",
+      "Electrical and Electronics Design (tut)"
+    ]
+  }
+  

@@ -1,0 +1,40 @@
+{
+    "Monday": [
+      "Numerical Methods",
+      "Introduction to Economics",
+      "Basic Electrical and Electronics Engineering",
+      "Fundamentals of Engineering Materials",
+      "Thermodynamics of Materials (tut)",
+      "Electrical and Electronics Design (lab)"
+    ],
+    "Tuesday": [
+      "Numerical Methods",
+      "Introduction to Economics",
+      "Basic Electrical and Electronics Engineering",
+      "Fundamentals of Engineering Materials",
+      "Transport Phenomena in Materials Engineering (tut)",
+      "Numerical Methods Lab (lab)"
+    ],
+    "Wednesday": [
+      "Fundamentals of Engineering Materials",
+      "Basic Electrical and Electronics Engineering",
+      "Introduction to Economics",
+      "Transport Phenomena in Materials Engineering",
+      "Electrical and Electronics Design (tut)"
+    ],
+    "Thursday": [
+      "Basic Electrical and Electronics Engineering",
+      "Fundamentals of Engineering Materials",
+      "Introduction to Economics",
+      "Transport Phenomena in Materials Engineering",
+      "Numerical Methods Lab (lab)"
+    ],
+    "Friday": [
+      "Basic Electrical and Electronics Engineering",
+      "Fundamentals of Engineering Materials",
+      "Introduction to Economics",
+      "Transport Phenomena in Materials Engineering",
+      "Electrical and Electronics Design (tut)"
+    ]
+  }
+  

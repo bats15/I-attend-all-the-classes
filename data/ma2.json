@@ -1,0 +1,34 @@
+{
+    "Monday": [
+      "Numerical Methods",
+      "Introductory Biology",
+      "Computer Architecture",
+      "Engineering Mechanics",
+      "Numerical Methods Lab (lab)"
+    ],
+    "Tuesday": [
+      "Numerical Methods",
+      "Electrical and Electronics Design",
+      "Introductory Biology",
+      "Computer Architecture",
+      "Graph Theory and Combinatorics (tut)"
+    ],
+    "Wednesday": [
+      "Electrical and Electronics Design",
+      "Introductory Biology",
+      "Introductory Biology (tut)",
+      "Electrical and Electronics Design Lab (lab)"
+    ],
+    "Thursday": [
+      "Engineering Mechanics",
+      "Electrical and Electronics Design",
+      "Computer Architecture Lab (lab)"
+    ],
+    "Friday": [
+      "Computer Architecture",
+      "Engineering Mechanics",
+      "Electrical and Electronics Design (tut)",
+      "Biology Lab (lab)"
+    ]
+  }
+  
