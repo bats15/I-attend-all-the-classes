@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 100vh;
+            width: 100%;
+        }
+        a{
+            margin: 10px;
+            text-decoration: none;
+            color: black;
+            font-size: 1.2rem;
+            font-weight: bold;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        a:hover{
+            background-color: #000;
+            color: white;
+        }
+        h2{
+            text-align: center;
+        }
+        .logout{
+            background-color: red;
+            color: white;
+        }
+        .signup{
+            background-color: green;
+            color: white;
+        }
+        .login{
+            background-color: blue;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h2>I attent all the classes</h2>
+    <% if(user){ %>
+        <a href="/logout">Logout</a>
+    <% } else { %>
+        <a href="/signup">Signup</a>
+        <a href="/login">Login</a>
+    <% } %>
+</body>
+</html>
