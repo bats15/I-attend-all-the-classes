@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Attendance Analytics</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        h2, h3 { text-align: center; }
+        table { margin: 0 auto; border-collapse: collapse; width: 60%; }
+        th, td { border: 1px solid #ccc; padding: 10px; text-align: center; }
+        th { background: #f0f0f0; }
+    </style>
+</head>
+<body>
+    <h2>Attendance Analytics</h2>
+    <% if (branch && year) { %>
+        <h3><%= branch %> <%= year %> Year</h3>
+    <% } %>
+    <table>
+        <tr>
+            <th>Subject</th>
+            <th>Total Classes Scheduled</th>
+            <th>Classes Attended</th>
+            <th>Attendance %</th>
+        </tr>
+        <% for (const subject in subjectStats) { %>
+            <tr>
+                <td><%= subject %></td>
+                <td><%= subjectStats[subject].total %></td>
+                <td><%= subjectStats[subject].attended %></td>
+                <td><%= subjectStats[subject].percentage %></td>
+            </tr>
+        <% } %>
+    </table>
+    <div style="text-align:center; margin-top:20px;">
+        <a href="/">Back to homepage</a>
+    </div>
+</body>
+</html> 
