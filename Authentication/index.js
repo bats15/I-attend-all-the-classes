@@ -9,7 +9,7 @@ const cookieParser = require('cookie-parser');
 const staticRoutes = require('../Authentication/routes/Staticroute')
 
 app.use(express.json());
-app.use(express.urlencoded({ extended: false }));
+app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 app.set('view engine', 'ejs');
 app.set('views',path.resolve('../Authentication/views'));

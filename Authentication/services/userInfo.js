@@ -1,8 +1,8 @@
 function getUserBranchYearAndFile(email) {
+    
     // Example email: 2024ucs0101@iitjammu.ac.in
     const match = email.match(/^(\d{4})u([a-z]{2})\d{4}@iitjammu\.ac\.in$/i);
     if (!match) return null;
-
     const admissionYear = parseInt(match[1], 10);
     const branchCode = match[2].toLowerCase();
     const currentYear = new Date().getFullYear();
@@ -10,6 +10,7 @@ function getUserBranchYearAndFile(email) {
 
     // Map branch code to branch name and file prefix
     const branchMap = {
+        ch: 'ch',
         cs: 'cs', // CSE
         ce: 'ce', // CE
         ee: 'ee', // EE

@@ -8,7 +8,7 @@
         body{
             display: flex;
             flex-direction: column;
-            justify-content: space-between;
+            justify-content: center;
             align-items: center;
             height: 100vh;
             width: 100%;
@@ -52,6 +52,10 @@
         <h3>Today's Classes:</h3>
         <% let hasUnfilled = false; %>
         <% classStatus.forEach(function(item) { if (!item.alreadyFilled) hasUnfilled = true; }); %>
+        <pre>
+    classStatus: <%= JSON.stringify(classStatus) %>
+    hasUnfilled: <%= hasUnfilled %>
+  </pre>
         <% if (hasUnfilled) { %>
             <form action="/user/attendance" method="POST">
                 <ul>

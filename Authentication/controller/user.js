@@ -42,7 +42,7 @@ async function handleUserSignup(req, res){
         email: body.email,
         password: body.password
     });
-    await renderHomepageWithAttendance(req, res, body.email);
+    return res.render('login.ejs');
 }
 
 async function handleUserLogin(req, res){
