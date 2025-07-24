@@ -4,39 +4,103 @@
     <meta charset="UTF-8">
     <title>Login</title>
     <style>
-        body{
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
+        :root {
+            --color-bg: #ECFAE5;
+            --color-card: #DDF6D2;
+            --color-accent: #CAE8BD;
+            --color-accent2: #B0DB9C;
+            --color-dark: #222;
+            --color-link: #4B7F52;
         }
-        form{
-            max-width: 35%;
+        body {
+            background: var(--color-bg);
+            min-height: 100vh;
+            margin: 0;
+            font-family: 'Segoe UI', Arial, sans-serif;
             display: flex;
             flex-direction: column;
-            gap: 10px;
-            margin-left: 5%;
+            align-items: center;
+            justify-content: center;
         }
-        input{
-            padding: 10px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
+        .login-card {
+            background: var(--color-card);
+            padding: 2.5rem 2.2rem 2rem 2.2rem;
+            border-radius: 18px;
+            box-shadow: 0 4px 24px 0 rgba(176,219,156,0.12);
+            min-width: 340px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
-        button{
-            padding: 10px;
+        h2 {
+            color: var(--color-dark);
+            margin-bottom: 1.5rem;
         }
-        .error{
+        form {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 1.1rem;
+        }
+        label {
+            font-weight: 500;
+            color: var(--color-link);
+            margin-bottom: 0.2rem;
+        }
+        input {
+            padding: 0.8rem 1rem;
+            border: 1.5px solid var(--color-accent);
+            border-radius: 7px;
+            font-size: 1rem;
+            background: #fff;
+            transition: border 0.2s;
+        }
+        input:focus {
+            border: 1.5px solid var(--color-accent2);
+            outline: none;
+        }
+        button[type="submit"] {
+            background: var(--color-accent2);
+            color: var(--color-dark);
+            border: none;
+            padding: 0.9rem 0;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            cursor: pointer;
+            margin-top: 0.5rem;
+            transition: background 0.2s, color 0.2s;
+        }
+        button[type="submit"]:hover {
+            background: var(--color-link);
+            color: #fff;
+        }
+        .error {
             color: red;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+        @media (max-width: 500px) {
+            .login-card {
+                min-width: 90vw;
+                padding: 1.2rem 0.5rem 1.5rem 0.5rem;
+            }
         }
     </style>
 </head>
 <body>
-    <h2>Login</h2>
-    <form action="/user/login" method="POST">
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required><br><br>
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required><br><br>
-        <button type="submit">Login</button>
-    </form>
+    <div class="login-card">
+        <h2>Login</h2>
+        <% if (typeof error !== 'undefined' && error) { %>
+            <div class="error"><%= error %></div>
+        <% } %>
+        <form action="/user/login" method="POST">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit">Login</button>
+        </form>
+    </div>
 </body>
 </html>

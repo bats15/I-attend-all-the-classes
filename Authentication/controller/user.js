@@ -32,7 +32,15 @@ async function renderHomepageWithAttendance(req, res, email) {
         });
         classStatus.push({ className, alreadyFilled });
     }
-    res.render('homepage.ejs', { branch, year, classStatus });
+    // Fetch total and attended classes for the user (all-time)
+    const attendanceRecords = await Attendance.find({ studentEmail: email });
+    let totalClasses = 0;
+    let attendedClasses = 0;
+    for (const record of attendanceRecords) {
+        totalClasses++;
+        if (record.attended) attendedClasses++;
+    }
+    res.render('homepage.ejs', { branch, year, classStatus, totalClasses, attendedClasses });
 }
 
 async function handleUserSignup(req, res){
