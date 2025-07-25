@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require('express');
 const connectMongoDB = require('./connection/connect');
 const userRoutes = require('../Authentication/routes/user');
@@ -14,7 +15,7 @@ app.use(cookieParser());
 app.set('view engine', 'ejs');
 app.set('views',path.resolve('../Authentication/views'));
 
-connectMongoDB('mongodb://localhost:27017/attendance')
+connectMongoDB(process.env.MONGODB_URI)
     .then(() => {
         console.log('Connected to MongoDB');
     })
