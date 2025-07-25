@@ -1,0 +1,28 @@
+{
+  "Monday": [
+    "Compressible Fluid Flow",
+    "Additive Manufacturing",
+    "Experimental Methods in Thermal and Fluid Sciences"
+  ],
+  "Tuesday": [
+    "Compressible Fluid Flow",
+    "Additive Manufacturing"
+  ],
+  "Wednesday": [
+    "Physics of Nuclear Reactors",
+    "Finite Element Methods",
+    "Compressible Fluid Flow"
+  ],
+  "Thursday": [
+    "Physics of Nuclear Reactors",
+    "Composite Materials and Design",
+    "Finite Element Methods",
+    "Additive Manufacturing"
+  ],
+  "Friday": [
+    "Physics of Nuclear Reactors",
+    "Composite Materials and Design",
+    "Finite Element Methods",
+    "B.Tech Project - 2"
+  ]
+}

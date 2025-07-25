@@ -1,0 +1,33 @@
+{
+  "Monday": [
+    "Speech and Audio Processing",
+    "Advanced Digital System Design",
+    "Solid State Devices",
+    "Digital VLSI Design / Detection & Estimation Theory / Adaptive Signal Processing",
+    "Test and Verification of SoCs / Introduction to Internet of Things"
+  ],
+  "Tuesday": [
+    "RF System",
+    "Advanced Digital System Design",
+    "Solid State Devices",
+    "Digital VLSI Design / Detection & Estimation Theory / Adaptive Signal Processing",
+    "Test and Verification of SoCs / Introduction to Internet of Things"
+  ],
+  "Wednesday": [
+    "Microwave Measurements",
+    "RF System",
+    "Advanced Digital System Design",
+    "Solid State Devices",
+    "Digital VLSI Design / Detection & Estimation Theory / Adaptive Signal Processing",
+    "Test and Verification of SoCs / Introduction to Internet of Things"
+  ],
+  "Thursday": [
+    "Speech and Audio Processing",
+    "Microwave Measurements",
+    "RF System"
+  ],
+  "Friday": [
+    "Speech and Audio Processing",
+    "Microwave Measurements"
+  ]
+}

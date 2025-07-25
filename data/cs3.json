@@ -1,0 +1,43 @@
+{
+  "Monday": [
+    "Operating Systems",
+    "Statistical Methods",
+    "Computer Vision",
+    "Artificial Intelligence",
+    "Database Management Systems",
+    "T",
+    "Optimization Algorithms"
+  ],
+  "Tuesday": [
+    "Operating Systems",
+    "Basic Algebra",
+    "Statistical Methods",
+    "Artificial Intelligence",
+    "Database Management Systems",
+    "Operating Systems Lab (lab)"
+  ],
+  "Wednesday": [
+    "Theory of Automata and Computation",
+    "Basic Algebra",
+    "Statistical Methods",
+    "Artificial Intelligence",
+    "Database Management Systems",
+    "T",
+    "Optimization Algorithms"
+  ],
+  "Thursday": [
+    "Computer Vision",
+    "Theory of Automata and Computation",
+    "Basic Algebra",
+    "Operating Systems",
+    "T",
+    "Optimization Algorithms"
+  ],
+  "Friday": [
+    "Computer Vision",
+    "Theory of Automata and Computation",
+    "T",
+    "Computer Vision Lab (lab)",
+    "Database Management Systems Lab (lab)"
+  ]
+}

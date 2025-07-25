@@ -1,0 +1,34 @@
+{
+  "Monday": [
+    "Control Systems",
+    "Digital Communications",
+    "Electrical Machine",
+    "Control Systems Lab (lab)"
+  ],
+  "Tuesday": [
+    "Power Electronics",
+    "Control Systems",
+    "Digital Communications (tut)"
+  ],
+  "Wednesday": [
+    "Physical Electronics",
+    "Power Electronics",
+    "Power Electronics (tut)",
+    "Digital Communications Lab (lab)"
+  ],
+  "Thursday": [
+    "Electrical Machine",
+    "Physical Electronics",
+    "Power Electronics",
+    "Course M2 (lab)",
+    "Course M1 (tut)",
+    "Course M2 (tut)",
+    "Course M1 Lab (lab)"
+  ],
+  "Friday": [
+    "Digital Communications",
+    "Electrical Machine",
+    "Physical Electronics",
+    "Electrical Machine Lab (lab)"
+  ]
+}

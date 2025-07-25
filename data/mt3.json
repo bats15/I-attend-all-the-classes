@@ -1,0 +1,23 @@
+    {
+  "Monday": [
+    "Mechanical Behavior of Materials",
+    "Engineering Fundamentals of Polymers",
+    "Materials Simulation Laboratory (lab)"
+  ],
+  "Tuesday": [
+    "Mechanical Behavior of Materials",
+    "Engineering Fundamentals of Polymers",
+    "Material Testing Laboratory (lab)"
+  ],
+  "Wednesday": [
+    "Engineering Ceramics",
+    "Mechanical Behavior of Materials"
+  ],
+  "Thursday": [
+    "Engineering Ceramics"
+  ],
+  "Friday": [
+    "Engineering Fundamentals of Polymers",
+    "Engineering Ceramics"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "Monday": [
+    "Planning, Design and Construction of Rural Roads",
+    "Construction Management",
+    "Fundamental in Remote Sensing"
+  ],
+  "Tuesday": [
+    "Structural Dynamics",
+    "Planning, Design and Construction of Rural Roads",
+    "Construction Management",
+    "Fundamental in Remote Sensing"
+  ],
+  "Wednesday": [
+    "Air Pollution and Solid Waste Management",
+    "Structural Dynamics",
+    "Planning, Design and Construction of Rural Roads"
+  ],
+  "Thursday": [
+    "Air Pollution and Solid Waste Management",
+    "Structural Dynamics"
+  ],
+  "Friday": [
+    "Construction Management",
+    "Air Pollution and Solid Waste Management",
+    "Fundamental in Remote Sensing (lab)"
+  ]
+}

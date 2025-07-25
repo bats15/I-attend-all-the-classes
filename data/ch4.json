@@ -1,0 +1,30 @@
+{
+  "Monday": [
+    "Fuel Technology",
+    "Molecular Simulations: Principles and Applications",
+    "Experimental Methods in Thermal and Fluid Sciences",
+    "Process Modelling and Simulation Lab"
+  ],
+  "Tuesday": [
+    "Introduction to Sustainable Energy Engineering",
+    "Fuel Technology",
+    "Molecular Simulations: Principles and Applications",
+    "Process Instrumentation, Dynamics & Control Lab"
+  ],
+  "Wednesday": [
+    "Product Process Plant Design",
+    "Introduction to Sustainable Energy Engineering",
+    "Fuel Technology"
+  ],
+  "Thursday": [
+    "Experimental Methods in Thermal and Fluid Sciences",
+    "Product Process Plant Design",
+    "Introduction to Sustainable Energy Engineering",
+    "Chemical Reaction Engineering Lab"
+  ],
+  "Friday": [
+    "Molecular Simulations: Principles and Applications",
+    "Experimental Methods in Thermal and Fluid Sciences",
+    "Product Process Plant Design"
+  ]
+}

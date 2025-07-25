@@ -1,0 +1,34 @@
+{
+  "Monday": [
+    "Statistical Methods",
+    "Integral Transforms and its Applications",
+    "Operating Systems"
+  ],
+  "Tuesday": [
+    "Basic Algebra",
+    "Statistical Methods",
+    "Introduction to Coding Theory",
+    "Operating Systems",
+    "Operating Systems Lab (lab)"
+  ],
+  "Wednesday": [
+    "Introduction to Coding Theory",
+    "Basic Algebra",
+    "Statistical Methods",
+    "Operating Systems"
+  ],
+  "Thursday": [
+    "Introduction to Coding Theory",
+    "Integral Transforms and its Applications",
+    "Basic Algebra",
+    "Basic Algebra (tut)",
+    "Statistical Methods (tut)"
+  ],
+  "Friday": [
+    "Introduction to Coding Theory",
+    "Integral Transforms and its Applications",
+    "Statistical Methods",
+    "Integral Transforms and its Applications (tut)",
+    "Database Management Systems Lab (lab)"
+  ]
+}

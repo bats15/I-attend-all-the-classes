@@ -1,0 +1,42 @@
+{
+  "Monday": [
+    "Deep learning",
+    "Software Engineering & Design Paradigm",
+    "Deep learning Lab",
+    "Computer Vision",
+    "Distributed Systems",
+    "Optimization Algorithms",
+    "Artificial Intelligence"
+  ],
+  "Tuesday": [
+    "Deep learning",
+    "Cloud Computing",
+    "Software Engineering & Design Paradigm",
+    "Computer Vision",
+    "Distributed Systems",
+    "Optimization Algorithms",
+    "Artificial Intelligence"
+  ],
+  "Wednesday": [
+    "Networks Security",
+    "Software Engineering & Design Paradigm Lab",
+    "Software Engineering & Design Paradigm",
+    "Computer Vision",
+    "Distributed Systems",
+    "Optimization Algorithms",
+    "Artificial Intelligence"
+  ],
+  "Thursday": [
+    "Networks Security",
+    "Cloud Computing Lab",
+    "Cloud Computing",
+    "Deep learning"
+  ],
+  "Friday": [
+    "Networks Security",
+    "Distributed Systems Lab",
+    "Optimization Algorithms",
+    "Computer Vision Lab",
+    "Networks Security Lab"
+  ]
+}

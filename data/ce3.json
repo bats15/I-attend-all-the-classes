@@ -1,0 +1,29 @@
+{
+  "Monday": [
+    "Design of RC Structures",
+    "Hydrology and Irrigation Engineering",
+    "CT",
+    "Hydrology and Irrigation Engineering (lab)"
+  ],
+  "Tuesday": [
+    "Geotechnical Engineering",
+    "Design of RC Structures",
+    "Hydrology and Irrigation Engineering"
+  ],
+  "Wednesday": [
+    "Air Pollution and Solid Waste Management",
+    "Geotechnical Engineering",
+    "Design of RC Structures"
+  ],
+  "Thursday": [
+    "Transportation Engineering-I",
+    "Air Pollution and Solid Waste Management",
+    "Geotechnical Engineering",
+    "Transportation Engineering-I (lab)"
+  ],
+  "Friday": [
+    "BT",
+    "Transportation Engineering-I",
+    "Air Pollution and Solid Waste Management"
+  ]
+}

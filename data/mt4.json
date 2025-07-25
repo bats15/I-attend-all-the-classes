@@ -1,0 +1,25 @@
+{
+  "Monday": [
+    "Design of Steel Making",
+    "Integrated Computational Materials Engineering (ICME)"
+  ],
+  "Tuesday": [
+    "Material Technology for Energy Storage",
+    "Design of Steel Making"
+  ],
+  "Wednesday": [
+    "Advanced Alloys",
+    "Material Technology for Energy Storage",
+    "Design of Steel Making",
+    "Class Test"
+  ],
+  "Thursday": [
+    "Integrated Computational Materials Engineering (ICME)",
+    "Advanced Alloys",
+    "Material Technology for Energy Storage",
+    "Advanced Materials Laboratory"
+  ],
+  "Friday": [
+    "Advanced Alloys"
+  ]
+}

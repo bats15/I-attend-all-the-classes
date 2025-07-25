@@ -1,0 +1,26 @@
+{
+  "Monday": [
+    "Mass Transfer II",
+    "Chemical Reaction Engineering I",
+    "Mechanical Operations"
+  ],
+  "Tuesday": [
+    "Mass Transfer II",
+    "Chemical Reaction Engineering I",
+    "Fluid Flow Operations Laboratory (lab)"
+  ],
+  "Wednesday": [
+    "Mass Transfer II",
+    "Heat Transfer and Thermodynamics Laboratory (lab)",
+    "Environmental Engineering and Waste Management"
+  ],
+  "Thursday": [
+    "Mechanical Operations",
+    "Environmental Engineering and Waste Management"
+  ],
+  "Friday": [
+    "Chemical Reaction Engineering I",
+    "Mechanical Operations",
+    "Environmental Engineering and Waste Management"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "Monday": [
+    "Machine Design",
+    "Mechanical Vibration",
+    "Manufacturing System Design",
+    "Energy Systems and Technologies (tut)",
+    "KDOM Lab (lab)"
+  ],
+  "Tuesday": [
+    "Machine Design",
+    "Manufacturing System Design",
+    "Machine Design",
+    "Mechanical Vibration",
+    "Thermal Energy Systems Lab (lab)"
+  ],
+  "Wednesday": [
+    "Course M1",
+    "Energy Systems and Technologies",
+    "Manufacturing System Design",
+    "Machine Design",
+    "Manufacturing Process 2 Laboratory (lab)"
+  ],
+  "Thursday": [
+    "Course M1",
+    "Energy Systems and Technologies",
+    "Manufacturing System Design",
+    "Manufacturing Process 2 Laboratory",
+    "Course M2"
+  ],
+  "Friday": [
+    "Course M1",
+    "Energy Systems and Technologies"
+  ]
+}
